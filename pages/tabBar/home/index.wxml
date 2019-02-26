@@ -1,0 +1,6 @@
+<view>
+  首页
+  <navigator url="/pages/homeSP/pages/test/test" hover-class="navigator-hover">
+    跳转到分包页面
+  </navigator>
+</view>

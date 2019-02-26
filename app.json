@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/tabBar/home/index",
+    "pages/tabBar/service/index",
+    "pages/tabBar/mine/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序模板",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#7b7b7b",
+    "selectedColor": "#0eb6eb",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/home/index",
+        "text": "首页",
+        "iconPath": "/images/tabBar/foot_index.png",
+        "selectedIconPath": "/images/tabBar/foot_index_touch.png"
+      },
+      {
+        "pagePath": "pages/tabBar/service/index",
+        "text": "组件",
+        "iconPath": "/images/tabBar/foot_service.png",
+        "selectedIconPath": "/images/tabBar/foot_service_touch.png"
+      },
+      {
+        "pagePath": "pages/tabBar/mine/index",
+        "text": "我的",
+        "iconPath": "/images/tabBar/foot_mine.png",
+        "selectedIconPath": "/images/tabBar/foot_mine_touch.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "subPackages": [
+    {
+      "root": "pages/homeSP",
+      "pages": [
+        "pages/test/test"
+      ]
+    },
+    {
+      "root": "pages/publicSP",
+      "pages": [
+        "pages/locationSetting/locationSetting"
+      ]
+    }
+  ]
+}

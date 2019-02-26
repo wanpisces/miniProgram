@@ -1,0 +1,9 @@
+<!--miniprogram/pages/publicSP/pages/locationSetting/locationSetting.wxml-->
+	<view class="showFlag">
+	  <view class="showFg">
+	    <view class="showg">您拒绝了地理位置授权</view>
+	      <view class="showg">需要重新设置</view>
+	      <button class="showF" open-type="openSetting" bindopensetting="bindopensetting">去设置</button>
+	    </view>
+	</view>
+
